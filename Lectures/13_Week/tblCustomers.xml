@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tblCustomers.xsd" generated="2018-04-25T20:09:58">
+   <tblCustomers>
+      <CustomerID>1</CustomerID>
+      <CompanyName>Magna Mart, Inc.</CompanyName>
+      <ContactName>Sharon Peterson</ContactName>
+      <BillingAddress>912 Dodson Avenue</BillingAddress>
+      <City>Chattanooga</City>
+      <State>TN</State>
+      <PostalCode>37406-4124</PostalCode>
+      <Region>1</Region>
+      <PhoneNum>4235555960</PhoneNum>
+      <FaxNumber>4235555962</FaxNumber>
+      <TaxStatus>0</TaxStatus>
+      <InitialOrderDate>1999-02-18T00:00:00</InitialOrderDate>
+   </tblCustomers>
+   <tblCustomers>
+      <CustomerID>2</CustomerID>
+      <CompanyName>The Toy House</CompanyName>
+      <ContactName>Elsa Masters</ContactName>
+      <BillingAddress>651 Holloway Street</BillingAddress>
+      <City>Durham</City>
+      <State>NC</State>
+      <PostalCode>27701-3457</PostalCode>
+      <Region>2</Region>
+      <PhoneNum>9195556672</PhoneNum>
+      <FaxNumber>9195557782</FaxNumber>
+      <TaxStatus>0</TaxStatus>
+      <InitialOrderDate>2000-10-15T00:00:00</InitialOrderDate>
+   </tblCustomers>
+   <tblCustomers>
+      <CustomerID>3</CustomerID>
+      <CompanyName>The Dolls and Bear Barn</CompanyName>
+      <ContactName>Theodora Alexander</ContactName>
+      <BillingAddress>365 Main Street</BillingAddress>
+      <City>Hartford</City>
+      <State>CT</State>
+      <PostalCode>06085-0365</PostalCode>
+      <Region>1</Region>
+      <PhoneNum>8065559116</PhoneNum>
+      <FaxNumber>8605559117</FaxNumber>
+      <NightNum>(806) 555-6576</NightNum>
+      <TaxStatus>0</TaxStatus>
+      <InitialOrderDate>2000-07-07T00:00:00</InitialOrderDate>
+   </tblCustomers>
+   <tblCustomers>
+      <CustomerID>4</CustomerID>
+      <CompanyName>Penny's Doll and Toys</CompanyName>
+      <ContactName>Nancy Erhard</ContactName>
+      <BillingAddress>1996 Wilkinson Avenue</BillingAddress>
+      <City>Charlotte</City>
+      <State>NC</State>
+      <PostalCode>28208-5644</PostalCode>
+      <Region>2</Region>
+      <PhoneNum>7045553400</PhoneNum>
+      <FaxNumber>7045553401</FaxNumber>
+      <TaxStatus>0</TaxStatus>
+      <InitialOrderDate>2000-11-22T00:00:00</InitialOrderDate>
+   </tblCustomers>
+   <tblCustomers>
+      <CustomerID>5</CustomerID>
+      <CompanyName>Crafts &amp; More</CompanyName>
+      <ContactName>Carolina Morgan</ContactName>
+      <BillingAddress>22651 45th Avenue</BillingAddress>
+      <City>Seattle</City>
+      <State>WA</State>
+      <PostalCode>98032-2265</PostalCode>
+      <Region>3</Region>
+      <PhoneNum>2065551919</PhoneNum>
+      <FaxNumber>2065551199</FaxNumber>
+      <NightNum>(206) 555-3130</NightNum>
+      <TaxStatus>1</TaxStatus>
+      <InitialOrderDate>2001-05-01T00:00:00</InitialOrderDate>
+   </tblCustomers>
+   <tblCustomers>
+      <CustomerID>6</CustomerID>
+      <CompanyName>Tots 'n Teens</CompanyName>
+      <ContactName>Lynn Bouchard</ContactName>
+      <BillingAddress>456 Memphis Avenue</BillingAddress>
+      <City>Nashville</City>
+      <State>TN</State>
+      <PostalCode>37201-0456</PostalCode>
+      <Region>1</Region>
+      <PhoneNum>4235552000</PhoneNum>
+      <FaxNumber>4235552001</FaxNumber>
+      <TaxStatus>0</TaxStatus>
+      <InitialOrderDate>2001-01-11T00:00:00</InitialOrderDate>
+   </tblCustomers>
+   <tblCustomers>
+      <CustomerID>7</CustomerID>
+      <CompanyName>Beltram House</CompanyName>
+      <ContactName>John Olmstead</ContactName>
+      <BillingAddress>2876 Brookshire Avenue</BillingAddress>
+      <City>Charlotte</City>
+      <State>NC</State>
+      <PostalCode>28215-2876</PostalCode>
+      <Region>2</Region>
+      <PhoneNum>7045553215</PhoneNum>
+      <FaxNumber>7045558765</FaxNumber>
+      <TaxStatus>1</TaxStatus>
+      <InitialOrderDate>2001-03-04T00:00:00</InitialOrderDate>
+   </tblCustomers>
+   <tblCustomers>
+      <CustomerID>8</CustomerID>
+      <CompanyName>ABC Toys, Inc.</CompanyName>
+      <ContactName>Suzanne Parker</ContactName>
+      <BillingAddress>9218 Park West Avenue</BillingAddress>
+      <City>Knoxville</City>
+      <State>TN</State>
+      <PostalCode>39723-9218</PostalCode>
+      <Region>1</Region>
+      <PhoneNum>4235551897</PhoneNum>
+      <FaxNumber>4235551899</FaxNumber>
+      <TaxStatus>0</TaxStatus>
+      <InitialOrderDate>2002-04-04T00:00:00</InitialOrderDate>
+   </tblCustomers>
+   <tblCustomers>
+      <CustomerID>9</CustomerID>
+      <CompanyName>Children's Hospital</CompanyName>
+      <ContactName>Paul Scheider</ContactName>
+      <BillingAddress>5274 West First Avenue</BillingAddress>
+      <City>Durham</City>
+      <State>NC</State>
+      <PostalCode>27702-5274</PostalCode>
+      <Region>2</Region>
+      <PhoneNum>9195551000</PhoneNum>
+      <FaxNumber>9195551050</FaxNumber>
+      <TaxStatus>1</TaxStatus>
+      <InitialOrderDate>2003-10-08T00:00:00</InitialOrderDate>
+   </tblCustomers>
+   <tblCustomers>
+      <CustomerID>10</CustomerID>
+      <CompanyName>New City Circus</CompanyName>
+      <ContactName>David Gross</ContactName>
+      <BillingAddress>501 North Canal Street</BillingAddress>
+      <City>Norfolk</City>
+      <State>VA</State>
+      <PostalCode>72723-0501</PostalCode>
+      <Region>2</Region>
+      <PhoneNum>6025551800</PhoneNum>
+      <FaxNumber>6025551801</FaxNumber>
+      <TaxStatus>1</TaxStatus>
+      <InitialOrderDate>2003-11-15T00:00:00</InitialOrderDate>
+   </tblCustomers>
+   <tblCustomers>
+      <CustomerID>11</CustomerID>
+      <CompanyName>The Hobby Company</CompanyName>
+      <ContactName>Tony Greenfield</ContactName>
+      <BillingAddress>3258 Bolton Avenue</BillingAddress>
+      <City>Norfolk</City>
+      <State>VA</State>
+      <PostalCode>72723-3258</PostalCode>
+      <Region>2</Region>
+      <PhoneNum>6025558011</PhoneNum>
+      <FaxNumber>6025558012</FaxNumber>
+      <TaxStatus>1</TaxStatus>
+      <InitialOrderDate>2004-02-18T00:00:00</InitialOrderDate>
+   </tblCustomers>
+   <tblCustomers>
+      <CustomerID>12</CustomerID>
+      <CompanyName>Bears &amp; Such</CompanyName>
+      <ContactName>Bob Jones</ContactName>
+      <BillingAddress>1012 Dobson Avenue</BillingAddress>
+      <City>Chattanooga</City>
+      <State>TN</State>
+      <PostalCode>37406-1012</PostalCode>
+      <Region>1</Region>
+      <PhoneNum>4235557765</PhoneNum>
+      <FaxNumber>4235557766</FaxNumber>
+      <NightNum>(703) 555-1470</NightNum>
+      <TaxStatus>0</TaxStatus>
+      <InitialOrderDate>2004-06-01T00:00:00</InitialOrderDate>
+   </tblCustomers>
+   <tblCustomers>
+      <CustomerID>13</CustomerID>
+      <CompanyName>Best 4 U</CompanyName>
+      <ContactName>Steven Golds</ContactName>
+      <BillingAddress>1000 Washington Avenue</BillingAddress>
+      <City>Chicago</City>
+      <State>IL</State>
+      <PostalCode>60032-1000</PostalCode>
+      <Region>3</Region>
+      <PhoneNum>3125551000</PhoneNum>
+      <FaxNumber>3125551199</FaxNumber>
+      <NightNum>(312) 555-9523</NightNum>
+      <TaxStatus>0</TaxStatus>
+      <InitialOrderDate>2004-12-01T00:00:00</InitialOrderDate>
+   </tblCustomers>
+   <tblCustomers>
+      <CustomerID>14</CustomerID>
+      <CompanyName>Caroline's Crib</CompanyName>
+      <ContactName>Laurie Roberts</ContactName>
+      <BillingAddress>20200 West Governors Drive</BillingAddress>
+      <City>Chicago</City>
+      <State>IL</State>
+      <PostalCode>60682-0200</PostalCode>
+      <Region>3</Region>
+      <PhoneNum>3125552234</PhoneNum>
+      <FaxNumber>3125552232</FaxNumber>
+      <NightNum>(312) 555-8281</NightNum>
+      <TaxStatus>0</TaxStatus>
+      <InitialOrderDate>2004-12-15T00:00:00</InitialOrderDate>
+   </tblCustomers>
+   <tblCustomers>
+      <CustomerID>18</CustomerID>
+      <CompanyName>The Toy Chest</CompanyName>
+      <ContactName>Venonica Hernandez</ContactName>
+      <BillingAddress>1500 Marilla St.</BillingAddress>
+      <City>Dallas</City>
+      <State>TX</State>
+      <PostalCode>75201-6390</PostalCode>
+      <Region>4</Region>
+      <PhoneNum>(214) 555-3296</PhoneNum>
+      <FaxNumber>(214) 555-5702</FaxNumber>
+      <NightNum>(214) 555-9462</NightNum>
+      <TaxStatus>0</TaxStatus>
+      <InitialOrderDate>2006-06-01T00:00:00</InitialOrderDate>
+   </tblCustomers>
+</dataroot>

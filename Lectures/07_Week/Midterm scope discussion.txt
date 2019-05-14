@@ -1,0 +1,16 @@
+1. ER diagram
+	a- understanding notation
+	b- creation of tables and relationship[hw2]
+	c- total and partial participation, weak entity, cardinality
+
+2. mapping ER diagram to schema with primary, composite keys, and foreign keys [hw4]
+
+3. relational algebra operators [lecture note]
+	- results returned on sample data
+	- write query (give query in algebra and ask for equivalent in datalog and vice versa; also SQL)
+
+4. Outerjoin, natural join
+
+5. basic SQL statements [hw5 and lecture notes]
+
+6. Reification process [lecture]

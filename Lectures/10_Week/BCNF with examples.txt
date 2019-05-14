@@ -1,0 +1,103 @@
+https://www.studytonight.com/dbms/boyce-codd-normal-form.php
+
+The Boyce-Codd Normal Form
+A relational schema R is considered to be in Boyce-Codd normal form (BCNF) if, for every one of its dependencies X -> Y, one of the following conditions holds true:
+	- X -> Y is a trivial functional dependency (i.e., Y is a subset of X)
+	- X is a superkey for schema R
+
+Informally the Boyce-Codd normal form is expressed as: "Each attribute must represent a fact about the key, the whole key, and nothing but the key."
+
+BCNF conditions:
+	1. It should be in the 3rd Normal Form.
+	2. For any dependency A->B, A should be a super key.
+
+A->B
+If A is non-prime(non-key) and B is a prime attribute or part of the composite PK, then it is NOT a BCNF
+
+Prime attribute -> non-prime attribute (functional dependency)
+
+part of primary key -> non-prime attribute (partial dependency)
+
+non-prime attribute -> non-prime attribute (transitive dependecy)
+
+Now, new situation occurs that:
+non-prime attribute -> prime attribute or part of the composite primary key
+
+This is in violation of the BCNF rule said X->Y
+X has to be a superkey (or prime attribute)
+
+
+
+
+For example:
+
++------------+----------+-----------+
+| Student_id |  Subject | Professor |
++------------+----------+-----------+
+|     101    |   Java   |  Dr_Java1 |
++------------+----------+-----------+
+|     101    |    C++   |   Dr_C1   |
++------------+----------+-----------+
+|     102    |   Java   |  Dr_Java2 |
++------------+----------+-----------+
+|     103    | Database |  Dr_Java1 |
++------------+----------+-----------+
+
+
+*** None Single Column is Key ***
+	One student can take 2 or more courses (student 101)
+	One professor (Dr_Java1) can teach more than 1 course
+
+
+*** Two Columnes Combination ***
+	Student_id, Subject is composite PK (Prime attributes) -> Professor (non-prime)
+
+	Student_id, Professor is composite PK (Prime attributes) -> Subject (non-prime)
+		However, we found out that Professor (non-prime) is also
+		determining Subject (Prime attribute), this is in violation of
+		BCNF of X -> Y and X has to be a superkey.
+
+
+***** Solution *****
+	To solve this problem, break the table into two tables:
+		Table 1: Student Table (Student_id, Prof_id with Student_id is superkey)
+		Table 2: Professor Table (Prof_id, Professor, Subject) with Prof_id is super key
+
+
+
+??????????????????????????
+
++------------+----------+-----------+
+| Student_id |  Subject | Professor |
++------------+----------+-----------+
+|     101    |   Java   |  Dr_Java1 |
++------------+----------+-----------+
+|     101    |    C++   |   Dr_C1   |
++------------+----------+-----------+
+|     102    |   Java   |  Dr_Java2 |
++------------+----------+-----------+
+|     103    | Database |  Dr_Java1 |
++------------+----------+-----------+
+
+ST + SUB + PRO is super key.
+
+ST + SUB could be PK
+ST + PRO could be PK
+
+ST + ID_PRO_SUB + SUB + PRO
+	* Condition: Sub + Prod is also key.
+
+ID_PRO_SUB -> SUB + PRO
+ST + ID_PRO_SUB -> self
+
+
+Table1:
+ID_PRO_SUB -> SUB, PRO
+
+Table2:
+ST + ID_PRO_SUB
+
+
+
+
+
