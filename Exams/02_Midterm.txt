@@ -1,3 +1,0 @@
-Midterm 2 scope will include the following:
-   1. Datalog and SQL (Midterm 1 scope)
-   2. Functional Dependency Theory, Integrity Constraints, BCNF, and Normalization

@@ -1,5 +1,0 @@
-Part 1. Queries (Mostly SQL)	
-Part 2. Datalog, SQL Constraints and Triggers
-Part 3. Functional Dependencies 
-Part 4. Transactions and Concurrency
-Part 5. Data Mining, Normalization, BCNF 
