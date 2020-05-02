@@ -9,29 +9,19 @@
 <body>
 Hello World1 <!-- the usual HTML way -->
 
-
 <% out.println("Hello World2"); %> <!-- output the same thing, but using jsp programming -->
 
 <!--
 If jsp cannot compile on Tomcat because of Java version, follow this:
-
 https://stackoverflow.com/a/41588031
 -->
-
-<!--
-For Intellij:
-	-> Add Tomcat to "External Libraries" by including everything in Tomcat/lib
--->
-
 <br>
 
 <!--
 Show HTML form to:
 	i) Display something
 	ii) Choose an action via a radio button
-
 forms are used to collect user input.
-
 The default method when submitting form data is GET. However, when GET is used, the submitted form data will be visible in the page address field.
 -->
 <form method="post" action="show.jsp">

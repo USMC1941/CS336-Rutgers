@@ -1,9 +1,9 @@
+<%@ page import="com.cs336.pkg.ApplicationDB" %>
 <%@ page import="java.sql.Connection" %>
 <%@ page import="java.sql.ResultSet" %>
 <%@ page import="java.sql.Statement" %>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="java.util.List" %>
-<%@ page import="com.cs336.ApplicationDB" %>
 <%@ page contentType="text/html; charset=UTF-8" %>
 
 <!DOCTYPE html>
