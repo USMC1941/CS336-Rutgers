@@ -2,7 +2,7 @@
 
 Midterm 1 scope will include the following:
    1. ER diagram
-      1. understanding notation
+      1. Understanding notation
       2. Creation of tables and relationship (HW2)
       3. Total and partial participation, weak entity, cardinality
    2. Mapping ER diagram to schema with primary, composite keys, and foreign keys (HW4)
