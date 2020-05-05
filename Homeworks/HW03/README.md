@@ -3,7 +3,7 @@
 Starting from the base predicates
 
 ```prolog
-parentOf(Parent,Child).
+parentOf(Parent, Child).
 male().
 female().
 ```
@@ -16,5 +16,3 @@ greatGrandParent(GGP, GGC).  % GGP is the great-grandparent of GGC
 brotherOf(B, S). % B is the brother of S
 secondCousin(A, B). % A and B share a great-grandparent but no closer ancestor
 ```
-
-[Diagram of first cousin and second cousin](https://en.wikipedia.org/wiki/Cousin#/media/File:CousinTree.svg)
