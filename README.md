@@ -1,7 +1,8 @@
 # CS336-Rutgers
+
 CS 336 Principles of Information and Data Management at Rutgers University
 
-Professor Chon Lintakoon 
+Professor Chon Lintakoon
 
 Spring 2019
 

@@ -7,9 +7,11 @@ parentOf(Parent, Child).
 male().
 female().
 ```
+
 with the obvious intuitive meanings.
 
 Define rules defining the following family relations:
+
 ```prolog
 grandMother(GM, GC).   % GM is the grandmother of GC
 greatGrandParent(GGP, GGC).  % GGP is the great-grandparent of GGC

@@ -1,27 +1,31 @@
 # HW05: SQL and Relational Algebra Queries
 
 1. Give the SQL definitions of the tables:
-```
-CrossCountrySkier(Name, Country, Age)
-Competes(SkierName,ContestName, Placement)
-Contest (Name, Place, Country, Length)
-```
-Showing particularly the foreign key constraints of the `Competes` table.
+
+   ```
+   CrossCountrySkier(Name, Country, Age)
+   Competes(SkierName,ContestName, Placement)
+   Contest (Name, Place, Country, Length)
+   ```
+
+   Showing particularly the foreign key constraints of the `Competes` table.
 
 ---
 
 2. Given the following schema:
-```
-Airport (City, Country, NumberOfRunways)
-Flight (FlightID, Day, DepartCity, DepartTime, ArrCity, ArrTime, PlaneType)
-Plane (PlaneType, NumberOfPassengers)
-```
-The question we want to find out:
 
-> The Belgian airport that have only domestic flights.
+   ```
+   Airport (City, Country, NumberOfRunways)
+   Flight (FlightID, Day, DepartCity, DepartTime, ArrCity, ArrTime, PlaneType)
+   Plane (PlaneType, NumberOfPassengers)
+   ```
 
-* Show this query in SQL using `EXCEPT` or `NOT IN` (pick only one):
-* Show this query in Relational Algebra
+   The question we want to find out:
+
+   > The Belgian airport that have only domestic flights.
+
+   -  Show this query in SQL using `EXCEPT` or `NOT IN` (pick only one):
+   -  Show this query in Relational Algebra
 
 ---
 
@@ -30,8 +34,10 @@ The question we want to find out:
 ---
 
 4. Give the SQL definitions of the tables:
-```
-Author (FirstName, Surname, DateofBirth, Nationality)
-Book (BookTitle, AuthorFirstName, authorSurname, Language)
-```
-For the foreign key constraint, specify a cascade policy on deletion.
+
+   ```
+   Author (FirstName, Surname, DateofBirth, Nationality)
+   Book (BookTitle, AuthorFirstName, authorSurname, Language)
+   ```
+
+   For the foreign key constraint, specify a cascade policy on deletion.
