@@ -17,8 +17,8 @@ This is a port of the CS336 sample project that uses Apache Maven to create the 
 3. Change the JDBC Connection String, database username and database password in `ApplictionDB.java`.
 4. To generate the `.war`, simply run
 
-```sh
-mvn install
-```
+   ```sh
+   mvn install
+   ```
 
 5. The `.war` file would be in the newly created `target` directory.
