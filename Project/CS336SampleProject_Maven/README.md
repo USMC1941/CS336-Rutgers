@@ -18,7 +18,7 @@ This is a port of the CS336 sample project that uses Apache Maven to create the 
 4. To generate the `.war`, simply run
 
    ```sh
-   mvn install
+   mvn clean install
    ```
 
 5. The `.war` file would be in the newly created `target` directory.
