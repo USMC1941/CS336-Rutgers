@@ -39,9 +39,7 @@ WHERE last_name LIKE '%d' AND first_name LIKE 'J%';
 SELECT last_name, first_name FROM tblemployee
 WHERE last_name='doe' AND first_name='john';
 
-
 -- 
-
 CREATE TABLE student_class
 (
 	class_id CHAR(3),

@@ -30,26 +30,18 @@ faculty(f3, chen, d2).
 faculty(f4, durham, d3).
 
 % Find the names of all juniors who are enrolled in a class taught by Borgida
- % student (of all juniors) -> names  -> enrolled -> class -> Borgida
- % student(SID, SName, _, jr, _), enrolled(SID, CName), class(CName, _, _, FID), faculty(FID, borgida, _).
+% student (of all juniors) -> names  -> enrolled -> class -> Borgida
+% student(SID, SName, _, jr, _), enrolled(SID, CName), class(CName, _, _, FID), faculty(FID, borgida, _).
 q1(SName):- student(SID, SName, _, jr, _), class(CName, _, _, FID), enrolled(SID, CName), faculty(FID, borgida, _).
 
 % Find the age of the student who is either a Bio major or enrolled in a course taught by Borgida
- % q2(Age):- student(_, _, bio, _, Age); student(SID, _, _, _, Age), enrolled(SID, CName), class(CName, _, _, FID), faculty(FID, borgida, _).
+% q2(Age):- student(_, _, bio, _, Age); student(SID, _, _, _, Age), enrolled(SID, CName), class(CName, _, _, FID), faculty(FID, borgida, _).
 q2(Age):- student(_, _, bio, _, Age).
 q2(Age):- student(SID, _, _, _, Age), enrolled(SID, CName), class(CName, _, _, FID), faculty(FID, borgida, _).
 
 % Find the names of all students who are enrolled in two classes that meet at the same time
 q3(SName):- student(SID, SName, _, _, _), enrolled(SID, CName1), enrolled(SID, CName2), class(CName1, Time, _, _), class(CName2, Time, _, _), \+ CName1 = CName2.
-%
 q3(SName):- class(CName1, Time, _, _), enrolled(SID, CName1), student(SID, SName, _, _, _), enrolled(SID, CName2), class(CName2, Time, _, _), \+ CName1 = CName2.
-
 
 % Find the names of students not enrolled in any class
 q4(SName):- student(SID, SName, _, _, _), \+ enrolled(SID, _).
-
-
-
-
-
-

@@ -51,9 +51,9 @@ BEGIN
 END$
 DELIMITER ;
 
-/*
-Then, create BEFORE INSERT and BEFORE UPDATE triggers. Inside the triggers, call the check_parts() stored procedure.
-*/
+
+-- Then, create BEFORE INSERT and BEFORE UPDATE triggers. Inside the triggers, call the check_parts() stored procedure.
+
 
 -- before insert
 DELIMITER $

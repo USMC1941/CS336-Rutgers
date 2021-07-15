@@ -42,17 +42,3 @@ q5wrong(EName):- employees(EID, EName, _), certified(EID, AID1), aircraft(AID1, 
 
 hasCruisingUnder1000(EID, EName):- employees(EID, EName, _), certified(EID, AID), aircraft(AID, _, CruisingDist), CruisingDist < 1000.
 q5(EName):- employees(EID, EName, _), certified(EID, AID1), aircraft(AID1, _, CruisingDist1), certified(EID, AID2), aircraft(AID2, _, CruisingDist2), CruisingDist1 > 1000, CruisingDist2 > 1000, \+ AID1 = AID2, \+ hasCruisingUnder1000(EID, EName).
-
-
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
