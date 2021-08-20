@@ -13,8 +13,8 @@ This is a port of the CS336 sample project that uses Apache Maven to create the 
 ## Instructions
 
 1. Download and navigate into the project.
-2. Execute the SQL file as the instructions states in MySQL Workbench.
-3. Change the JDBC Connection String, database username and database password in `ApplictionDB.java`.
+2. Execute the SQL file in the `Resources` directory as the instructions states in MySQL Workbench.
+3. Change the JDBC Connection String, database username and database password in [`ApplictionDB.java`](src/main/java/com/cs336/pkg/ApplicationDB.java).
 4. To generate the `.war`, simply run
 
    ```sh
