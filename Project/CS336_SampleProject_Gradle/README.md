@@ -18,21 +18,21 @@ This is a port of the CS336 sample project that uses Gradle to create the output
 4. To generate the `.war` file, run
 
    ```sh
-   gradle clean war
+   gradle clean build
    ```
 
    If one doesn't have Gradle installed, run
 
    ```sh
-   ./gradlew clean war
+   ./gradlew clean build
    ```
 
    in Bash or
 
    ```sh
-   .\gradlew.bat clean war
+   .\gradlew.bat clean build
    ```
 
-   in Powershell instead.
+   in Powershell.
 
 5. The `.war` file would be in the newly created `build/libs` directory.
